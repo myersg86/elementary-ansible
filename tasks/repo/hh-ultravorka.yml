@@ -1,2 +1,4 @@
 - apt_repository:
     repo: ppa:ultradvorka/ppa
+    state: present
+    update_cache: yes

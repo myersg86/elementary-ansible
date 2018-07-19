@@ -9,4 +9,3 @@
 
 - name: start tlp
   command: sudo tlp start
-  

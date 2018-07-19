@@ -1,14 +1,18 @@
 - hosts: localhost env
-  become: true
+  sudo: yes
+  remote_user: root
+  become_user: root
+  become_method: su
+  become: yes
 
   tasks:
 #    - include: tasks/update.yml
 #    - include: tasks/upgrade.yml
 #    - include: tasks/repo/albert.yml
 #    - include: tasks/repo/chrome.yml
-    - include: tasks/repo/elementary-plus.yml
-    - include: tasks/repo/flatpak.yml
-    - include: tasks/repo/hh-ultravorka.yml
+#    - include: tasks/repo/elementary-plus.yml
+#    - include: tasks/repo/flatpak.yml
+#    - include: tasks/repo/hh-ultravorka.yml
     - include: tasks/repo/openjdk.yml
     - include: tasks/repo/plus.yml
     - include: tasks/repo/tlp.yml
