@@ -4,8 +4,8 @@
   tasks:
     - include: tasks/update.yml
     - include: tasks/upgrade.yml
-    - include: tasks/repo/albert.yml
-    - include: tasks/repo/chrome.yml
+#    - include: tasks/repo/albert.yml
+#    - include: tasks/repo/chrome.yml
     - include: tasks/repo/elementary-plus.yml
     - include: tasks/repo/flatpak.yml
     - include: tasks/repo/hh-ultravorka.yml
