@@ -1,0 +1,12 @@
+- name: Update repositories cache and install "foo" package
+  apt:
+    name: tlp
+    update_cache: yes
+  
+- name: Update repositories cache and install "foo" package
+  apt:
+    name: tlp-rdw
+
+- name: start tlp
+  command: sudo tlp start
+  
