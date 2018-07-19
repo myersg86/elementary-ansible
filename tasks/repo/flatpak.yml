@@ -1,0 +1,2 @@
+- apt_repository:
+    repo: ppa:alexlarsson/flatpak
