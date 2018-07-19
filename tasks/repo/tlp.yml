@@ -1,3 +1,3 @@
 - name: add tlp repo
-  apt_repository:
+- apt_repository:
     repo: ppa:linrunner/tlp

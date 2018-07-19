@@ -1,11 +1,8 @@
-- hosts: localhost
+- hosts: localhost env
   become: true
-  pre_tasks:
-    - name: update repositories
-      apt: update_cache=yes
-      changed_when: False
 
   tasks:
+    - include: tasks/update.yml
     - include: tasks/upgrade.yml
     - include: tasks/repo/albert.yml
     - include: tasks/repo/chrome.yml
