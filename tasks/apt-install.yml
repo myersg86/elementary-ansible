@@ -18,6 +18,7 @@
     - nmap
     - powertop
     - tar
+    - snapd
     - synaptic
     - tree
     - terminator
