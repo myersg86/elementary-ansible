@@ -6,6 +6,5 @@
       changed_when: False
 
   tasks:
-    - include: tasks/install-packages/apt-transport-https.yml
-    - include: tasks/install-packages/apt-update.yml
-    - include: tasks/install-packages/apt-upgrade.yml
+    - include: tasks/update.yml
+    - include: tasks/upgrade.yml
