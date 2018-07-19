@@ -1,2 +1,2 @@
 - apt_repository:
-    repo: ppaflexiondotorg/albert
+    repo: ppa:flexiondotorg/albert

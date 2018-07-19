@@ -1,3 +1,2 @@
-- name: add elementary-tweaks repo
 - apt_repository:
     repo: ppa:philip.scott/elementary-tweaks

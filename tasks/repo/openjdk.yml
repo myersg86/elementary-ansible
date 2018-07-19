@@ -1,3 +1,2 @@
-- name: add openjdk repo
 - apt_repository:
     repo: ppa:openjdk-r/ppa
