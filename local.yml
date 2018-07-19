@@ -18,7 +18,8 @@
     - include: tasks/repo/tweaks.yml
     - include: tasks/update.yml
     - include: tasks/apt-install.yml
-    - include: tasks/spideroak.yml
+#    - include: tasks/spideroak.yml
     - include: tasks/tlp.yml
+    - include: tasks/repo/sublimetext.yml
 #    - include: tasks/upgrade.yml
     - include: tasks/cleanup.yml

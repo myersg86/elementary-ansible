@@ -1,2 +1,5 @@
 - name: start tlp
-  command: sudo tlp start
+  become: yes
+  become_user: root
+  become_method: su
+  command: tlp start

@@ -1,6 +1,7 @@
 - name: Install packages (apt)
   apt:
     name: "{{ packages }}"
+    update_cache: yes
   vars:
     packages:
     - apt-transport-https
@@ -10,6 +11,8 @@
     - coreutils
     - curl
     - git
+    - git-core
+    - grep
     - gzip
     - htop
     - hh
@@ -17,14 +20,21 @@
     - mpv
     - nmap
     - powertop
+    - python-dev
+    - python-pip
+    - python3-apt
     - tar
     - snapd
     - synaptic
     - tree
     - terminator
+    - tlp
+    - tlp-rdw
     - vim
     - vim-common
     - vlc
+    - ttf-mscorefonts-installer
     - rsync
     - wget
     - zip
+  
