@@ -10,4 +10,6 @@ sudo apt-get update &&
 sudo apt-get install --install-recommends -y ansible
 ```
 
-`ansible-pull -o -vvv -U https://github.com/myersg86/elementary-ansible.git local.yml`
+```
+ansible-pull -o -vvv -U https://github.com/myersg86/elementary-ansible.git local.yml
+```

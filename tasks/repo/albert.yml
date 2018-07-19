@@ -1,3 +1,2 @@
-- name: add albert repo
 - apt_repository:
-    repo: ppa:flexiondotorg/albert
+    repo: ppaflexiondotorg/albert
