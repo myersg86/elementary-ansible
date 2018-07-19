@@ -1,0 +1,20 @@
+- name: Install packages (apt)
+  apt: name={{item}}
+  with_items:
+    - curl
+    - git
+    - vim
+    - vim-common
+    - rsync
+    - wget
+#    - snmpd
+#    - ntp
+#    - nfs-common
+#    - autofs
+#    - sysstat
+#    - ntpdate
+#    - libcurl3
+#    - nmap
+#    - smartmontools
+#    - gdisk
+#    - lvm2
