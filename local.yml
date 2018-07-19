@@ -3,7 +3,7 @@
 
   tasks:
     - include: tasks/update.yml
-    - include: tasks/upgrade.yml
+#    - include: tasks/upgrade.yml
 #    - include: tasks/repo/albert.yml
 #    - include: tasks/repo/chrome.yml
     - include: tasks/repo/elementary-plus.yml
@@ -13,9 +13,9 @@
     - include: tasks/repo/plus.yml
     - include: tasks/repo/tlp.yml
     - include: tasks/repo/tweaks.yml
-    - include: tasks/update.yml
+#    - include: tasks/update.yml
     - include: tasks/apt-install.yml
     - include: tasks/spideroak.yml
     - include: tasks/tlp.yml
-    - include: tasks/upgrade.yml
+#    - include: tasks/upgrade.yml
     - include: tasks/cleanup.yml
