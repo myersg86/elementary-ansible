@@ -1,5 +1,4 @@
 - hosts: localhost env
-  sudo: yes
   remote_user: root
   become_user: root
   become_method: su
