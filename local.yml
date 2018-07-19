@@ -1,8 +1,5 @@
 - hosts: localhost env
-  remote_user: root
-  become_user: root
-  become_method: su
-  become: yes
+  become: true
 
   tasks:
 #    - include: tasks/update.yml
@@ -17,6 +14,7 @@
 #    - include: tasks/repo/tlp.yml
 #    - include: tasks/repo/tweaks.yml
 #    - include: tasks/update.yml
+    - include: tasks/cleanup.yml
     - include: tasks/apt-install.yml
 #    - include: tasks/spideroak.yml
     - include: tasks/repo/sublimetext.yml

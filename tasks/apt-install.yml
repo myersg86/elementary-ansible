@@ -1,4 +1,5 @@
 - name: Install packages (apt)
+  become: yes
   apt: name={{item}}
   with_items:
     - apt-transport-https
