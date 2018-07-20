@@ -11,7 +11,7 @@
 #    - include: tasks/upgrade.yml
 #    - include: tasks/repo/chrome.yml
 #    - include: tasks/repo/typora.yml
-    - include: tasks/repo/all-combined.yml
+#    - include: tasks/repo/all-combined.yml
     - include: tasks/update.yml
     - include: tasks/apt-install.yml
 #    - include: tasks/pip.yml

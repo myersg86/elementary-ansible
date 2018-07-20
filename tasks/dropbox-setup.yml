@@ -1,0 +1,6 @@
+- name: Copy dropbox-elementary.sh
+  copy: src=files/dropbox-elementary.sh
+  dest="~/."
+
+- name: run dropbox-elementary installer script  
+  script: ~/dropbox-elementary.sh
