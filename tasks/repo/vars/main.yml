@@ -1,8 +1,8 @@
-snap_list:
-  - slack
-  - node
-  - tusk
-  - google-play-music-desktop-player
+# snap_list:
+#   - slack
+#   - node
+#   - tusk
+#   - google-play-music-desktop-player
 
 repo_list:
   - deb [arch=amd64] http://packages.microsoft.com/repos/vscode stable main
