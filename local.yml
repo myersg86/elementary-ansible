@@ -22,3 +22,6 @@
 #    - include: tasks/tlp.yml
 #    - include: tasks/upgrade.yml
 #    - include: tasks/cleanup.yml
+    - include: tasks/bash.yml
+    - include: tasks/vim-runtime.yml
+    - include: tasks/vim.yml
