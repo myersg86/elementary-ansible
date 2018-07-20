@@ -17,10 +17,3 @@
 - name: Install Google Chrome
   apt: pkg=google-chrome-stable state=latest update_cache=yes cache_valid_time=3600
   register: google_chrome_install
-
-- name: Update apt cache
-  apt: update_cache=yes
-  when: google_apt_exists.rc == 1
-
-- name: Install Google Chrome
-  apt: pkg=google-chrome-stable state=present
