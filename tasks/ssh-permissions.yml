@@ -9,4 +9,4 @@
     path: "{{ item }}"
     mode: 0644
   with_fileglob:
-    - "/home/{{ username }}/.ssh/*.pub"
+    - "~/.ssh/*.pub"
