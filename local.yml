@@ -9,17 +9,18 @@
   tasks:
     - include: tasks/update.yml
     - include: tasks/upgrade.yml
-    - include: tasks/repo/albert.yml
+#    - include: tasks/repo/albert.yml
 #    - include: tasks/repo/chrome.yml
-    - include: tasks/repo/elementary-plus.yml
-    - include: tasks/repo/flatpak.yml
-    - include: tasks/repo/hh-ultravorka.yml
-    - include: tasks/repo/nixnote.yml
-    - include: tasks/repo/openjdk.yml
-    - include: tasks/repo/plus.yml
-    - include: tasks/repo/tlp.yml
-    - include: tasks/repo/tweaks.yml
+#    - include: tasks/repo/elementary-plus.yml
+#    - include: tasks/repo/flatpak.yml
+#    - include: tasks/repo/hh-ultravorka.yml
+#    - include: tasks/repo/nixnote.yml
+#    - include: tasks/repo/openjdk.yml
+#    - include: tasks/repo/plus.yml
+#    - include: tasks/repo/tlp.yml
+#    - include: tasks/repo/tweaks.yml
     - include: tasks/repo/typora.yml
+    - include: tasks/repo/all-combined.yml
     - include: tasks/update.yml
     - include: tasks/apt-install.yml
     - include: tasks/pip.yml
