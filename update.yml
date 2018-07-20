@@ -2,11 +2,9 @@
   become: true
   become_user: root
 
-- name: Only run "update_cache=yes" if the last one is more than 3600 seconds ago
+tasks:
   apt:
     update_cache: yes
     cache_valid_time: "3600"
-
-- name: Update all packages to the latest version
   apt:
     upgrade: dist
