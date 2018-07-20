@@ -3,8 +3,8 @@
   become_user: root
 
   tasks:
-#    - include: tasks/update.yml
-#    - include: tasks/upgrade.yml
+    - include: tasks/update.yml
+    - include: tasks/upgrade.yml
 #    - include: tasks/repo/albert.yml
 #    - include: tasks/repo/chrome.yml
 #    - include: tasks/repo/elementary-plus.yml
@@ -15,13 +15,12 @@
 #    - include: tasks/repo/tlp.yml
 #    - include: tasks/repo/tweaks.yml
 #    - include: tasks/update.yml
-#    - include: tasks/cleanup.yml
     - include: tasks/apt-install.yml
 #    - include: tasks/spideroak.yml
 #    - include: tasks/repo/sublimetext.yml
 #    - include: tasks/tlp.yml
 #    - include: tasks/upgrade.yml
-#    - include: tasks/cleanup.yml
+    - include: tasks/cleanup.yml
 #    - include: tasks/bash.yml
 #    - include: tasks/vim-runtime.yml
 #    - include: tasks/vim.yml
