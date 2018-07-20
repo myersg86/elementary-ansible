@@ -1,4 +1,4 @@
-- hosts: localhost local element env
+- hosts: localhost local element env gthinkpad
   become: true
   become_user: root
 
