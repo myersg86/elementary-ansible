@@ -22,6 +22,8 @@
     - python-dev
     - python-pip
     - python3-apt
+    - python3-git
+    - python3-regex
     - tar
     - snapd
     - synaptic
