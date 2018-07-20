@@ -20,6 +20,8 @@ fi
 
 #####################################
 # Display real installation process #
-# echo ""
-# echo "Run ansible with: "
-# echo ""
+echo ""
+echo "Prep-work Complete"
+echo ""
+echo "Run ansible with: "
+echo "ansible-pull -v -U https://github.com/myersg86/elementary-ansible.git playbook.yml"

@@ -13,5 +13,3 @@
     pkg: sublime-text
     state: latest
     update_cache: yes
-    cache_valid_time: 3600
-  register: sublime_install

@@ -3,3 +3,4 @@
 - name: Install packages (apt)
   apt_repository:
     repo: ppa:cybre/elementaryplus
+    state: present

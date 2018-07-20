@@ -2,3 +2,4 @@
 # On Ubuntu target:
 - apt_repository:
     repo: ppa:flexiondotorg/albert
+    state: present
