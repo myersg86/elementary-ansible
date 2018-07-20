@@ -1,10 +1,5 @@
-- name: stat vimrc
-  stat: path= ~/.vimrc"
-  register: vimrc_stat
-
 - name: Move vimrc to vimrc.backup
   command: mv "~/.vimrc" "~/vimrc.backup"
-  when: vimrc_stat.stat.exists
 
 - name: download vimrc
   get_url:
