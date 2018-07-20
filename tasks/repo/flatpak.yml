@@ -1,4 +1,3 @@
 - apt_repository:
-    repo: ppa:alexlarsson/flatpak
+    repo: 'ppa:alexlarsson/flatpak'
     state: present
-    update_cache: yes
