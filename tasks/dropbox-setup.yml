@@ -2,5 +2,5 @@
   copy:
     src: files/dropbox-elementary.sh
     dest: /tmp/.
-    
-- script: tmp/dropbox-elementary.sh
+
+- script: /tmp/dropbox-elementary.sh
