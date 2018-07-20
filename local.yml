@@ -1,4 +1,4 @@
-- hosts: localhost env
+- hosts: localhost
   become: true
 
   tasks:
