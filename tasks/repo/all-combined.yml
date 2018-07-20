@@ -3,7 +3,7 @@
   apt_repository:
    repo: "{{ item }}"
    state: present
-  loop: 
+  loop:
     - ppa:alexlarsson/flatpak
     - ppa:cybre/elementaryplus
     - ppa:ultradvorka/ppa
