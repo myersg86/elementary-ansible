@@ -1,0 +1,6 @@
+- name: add all repositories
+  tags: repo
+  apt_repository:
+   repo: "{{ item }}"
+   state: present
+  loop: "{{ repo_list }}"

@@ -1,5 +1,5 @@
 - hosts: localhost local element env gthinkpad
-  become: true
+#  become: true
   become: yes
   become_method: su
   remote_user: root
