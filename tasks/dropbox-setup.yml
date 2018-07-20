@@ -1,5 +1,6 @@
-- name: Copy dropbox-elementary.sh
-  copy: src=files/dropbox-elementary.sh
-  dest="~/."
-
-  script: ~/dropbox-elementary.sh
+- name: Copy a new "ntp.conf file into place, backing up the original if it differs from the copied version
+  copy:
+    src: files/dropbox-elementary.sh
+    dest: /tmp/.
+    
+- script: tmp/dropbox-elementary.sh
