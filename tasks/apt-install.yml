@@ -9,15 +9,21 @@
     - bash-builtins
     - coreutils
     - curl
+    - gir1.2-appindicator3-0.1
     - git
     - git-core
     - grep
     - gzip
     - htop
     - hh
+    - libindicator7
+    - libindicator3-7
+    - libappindicator3-1
+    - libappindicator1
     - manpages
     - mpv
     - nmap
+    - openssh-server
     - powertop
     - python-dev
     - python-pip
@@ -26,15 +32,18 @@
     - python3-regex
     - tar
     - snapd
+    - sni-qt
     - synaptic
     - tree
     - terminator
     - tlp
     - tlp-rdw
+    - tmux
     - vim
     - vim-common
     - vlc
     - ttf-mscorefonts-installer
     - rsync
+    - wingpanel-indicator-ayatana
     - wget
     - zip
