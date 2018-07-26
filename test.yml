@@ -3,7 +3,7 @@
   become_user: root
 
   tasks:
-    - include: tasks/dropbox-setup.yml
+    # - include: tasks/dropbox-setup.yml
     - include: tasks/update.yml
     - include: tasks/upgrade.yml
     - include: tasks/cleanup.yml
