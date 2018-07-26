@@ -7,3 +7,5 @@
     - include: tasks/update.yml
     - include: tasks/upgrade.yml
     - include: tasks/cleanup.yml
+    - include: tasks/repo/all-combined.yml
+    - include: tasks/apt-install.yml

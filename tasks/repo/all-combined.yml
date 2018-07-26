@@ -5,10 +5,10 @@
    state: present
   loop:
     - ppa:alexlarsson/flatpak
-    - ppa:cybre/elementaryplus
-    - ppa:ultradvorka/ppa
-    - ppa:nixnote/nixnote2-daily
-    - ppa:flexiondotorg/albert
     - ppa:philip.scott/elementary-tweaks
     - ppa:linrunner/tlp
     - ppa:openjdk-r/ppa
+    - ppa:ultradvorka/ppa
+    # - ppa:cybre/elementaryplus
+    # - ppa:nixnote/nixnote2-daily
+    # - ppa:flexiondotorg/albert
