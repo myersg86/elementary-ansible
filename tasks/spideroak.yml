@@ -1,3 +1,3 @@
 - name: Install a spideroak .deb package from the internet.
   apt:
-    deb: "https://spideroak.com/release/spideroak/deb_x64"
+    deb: 'https://spideroak.com/release/spideroak/deb_x64'
